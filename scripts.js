@@ -91,9 +91,9 @@ function playFunnyTime(el){
 }
 
 function freakout(el){
-	console.log("erin is freaking out");
+	console.log("Sarah is freaking out");
 	handleBold(el)
-	mediaType.text('Freakout engaged, Chris is being notified... hang tight, deep breaths!')
+	mediaType.text('Freakout engaged, Ryan is being notified... hang tight, deep breaths!')
 
 	player[0].pause()
 
@@ -105,7 +105,7 @@ function freakout(el){
 }
 
 function playPauseClicked(el){
-	console.log("erin pressed play/pause");
+	console.log("Sarah pressed play/pause");
 	// console.log('el:', el);
 
 	// find icon that ISN'T hidden
