@@ -212,8 +212,8 @@ function sendPush(){
 		"active": "true",
 		"type": "note",
 		"title": "HELP",
-		"body": "Shit is hitting Erins fan!",
-		"email": "chrisdermody1@gmail.com"
+		"body": "Shit is hitting Sarah's fan!",
+		"email": "ryan.fitzpatrick9@gmail.com"
 	}
 
 	let headers = {
@@ -223,7 +223,7 @@ function sendPush(){
 	         url: "https://api.pushbullet.com/v2/pushes",
 	         data: JSON.stringify(push),
 	         type: "POST",
-	         beforeSend: function(xhr){xhr.setRequestHeader('Access-Token', 'o.TWdGpN5eMfbFJ6aex5vjmgd9A2qsX6IT').setRequestHeader('Content-Type','application/json');},
+	         beforeSend: function(xhr){xhr.setRequestHeader('Access-Token', 'o.Pw1UmgdmmzV8nPLWX6ixATtt9fHIjmEb').setRequestHeader('Content-Type','application/json');},
 	         success: function() { alert("I've been notified darlin, will call as soon as I can! Kisses"); }
 	      });
 }
